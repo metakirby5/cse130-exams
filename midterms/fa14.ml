@@ -68,10 +68,7 @@ f2 [3;5;7;9];;
 let f3 = List.fold_left (fun x y -> x @ [3 * y]) [];;
 f3 [1;3;6];;
 
-(* Not sure why OCaml won't let this be polymorphic. *)
-let f = List.fold_left (fun x y -> y x);;
+let f x funcs = List.fold_left (fun x y -> y x) x funcs;;
 f 1 [(+) 1; (-) 2];;
-let f = List.fold_left (fun x y -> y x);;
 f "abc" [(^) "zzz"; (^) "yyy"];;
-let f = List.fold_left (fun x y -> y x);;
 f [1;2;3] [f1;f2;f3];;
