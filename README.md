@@ -5,4 +5,4 @@ How to check solution output for:
 - OCaml: `ocaml EXAM.ml` should raise no exceptions and print no output.
 - Python: `python EXAM.py` should raise no exceptions;
   it may print some output for decorators.
-- Prolog: `swipl -g main EXAM.pl` should print the expected output.
+- Prolog: `swipl EXAM.pl` should allow you to use the predicates.
