@@ -2,6 +2,7 @@
 Solutions for old CSE 130 exams.
 
 How to check solution output for:
-- OCaml: `ocaml EXAM.ml` should have no exceptions
-- Python: `python EXAM.py` should have no exceptions
-- Prolog: `swipl -g main EXAM.pl` should match the answers
+- OCaml: `ocaml EXAM.ml` should raise no exceptions and print no output.
+- Python: `python EXAM.py` should raise no exceptions;
+  it may print some output for decorators.
+- Prolog: `swipl -g main EXAM.pl` should print the expected output.
