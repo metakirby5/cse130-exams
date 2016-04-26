@@ -2,7 +2,7 @@
 Solutions for Sorin Lerner's past CSE 130 exams.
 
 How to check solution output for midterms:
-- `ocaml EXAML.ml` should match the output in the exam pdf.
+- `ocaml EXAM.ml` should match the output in the exam pdf.
 
 How to check solution output for finals:
 - OCaml: `ocaml EXAM.ml` should raise no exceptions and print no output.
